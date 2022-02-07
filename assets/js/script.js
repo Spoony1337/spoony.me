@@ -7,13 +7,13 @@ function openSocial(type) {
 
   switch (type) {
     case 'discord':
-      url = 'https://discord.com/users/795466085083906049';
+      url = 'https://discordapp.com/users/852778406629605396';
       break;
     case 'github':
-      url = 'https://github.com/amplitudesxd';
+      url = 'https://github.com/SpoonyTheGuy';
       break;
     case 'twitter':
-      url = 'https://twitter.com/amplitudesxd';
+      url = 'https://twitter.com/ZackSpoony';
       break;
   }
 
@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['javascript', 'golang', 'java', 'c#', 'c++'];
+  let text = ['java', 'php', 'html'];
 
   text.forEach(function (language, index) {
     typer.move(null);
@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'amplitudes.me | home';
+  document.title = 'spoony.tk | home';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
